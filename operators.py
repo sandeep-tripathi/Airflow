@@ -27,8 +27,8 @@ with DAG(dag_id="test_dag", default_args=default_args, schedule_interval='@daily
         bash_command='push_data.sh'
     )
 
-# Upstream: >> means before 
-# Downstream: << means after
+# Upstream: shift operator '>>' means before 
+# Downstream: '<<' means after
 
     # Set the task dependencies
     cleanup >> consolidate >> push_data
