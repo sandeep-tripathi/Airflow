@@ -26,3 +26,6 @@ airflow scheduler
 
 # Aiflow CLI commands:
 $ airflow dags list
+
+# Errors
+$ airflow dags list-import-errors
