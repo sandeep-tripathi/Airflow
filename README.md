@@ -2,7 +2,7 @@ Apache Airflow in Python
 
 Links: [Airflow](https://airflow.apache.org/docs/apache-airflow/stable/cli-and-env-variables-ref.html)
 
-Common commands
+# Common commands
 ```
 pip install apache-airflow
 airflow initdb
