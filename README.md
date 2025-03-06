@@ -11,6 +11,7 @@ airflow webserver -p 8080    # visit localhost:8080 in the browser
 airflow scheduler
 airflow dags list
 airflow dags list-import-errors
+airflow info
 ```
 
 
