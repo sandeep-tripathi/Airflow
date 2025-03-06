@@ -2,7 +2,11 @@ Apache Airflow in Python
 
 Links: [Airflow](https://airflow.apache.org/docs/apache-airflow/stable/cli-and-env-variables-ref.html)
 
-
+```
+git status
+git add
+git commit
+```
 
 # airflow needs a home, 
 ~/airflow is the default, but you can lay foundation somewhere else if you prefer
