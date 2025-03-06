@@ -13,8 +13,7 @@ airflow dags list-import-errors
 ```
 
  airflow needs a home, ~/airflow is the default, but you can lay foundation somewhere else if you prefer
-# (optional)
-export AIRFLOW_HOME=~/airflow
+(optional):  export AIRFLOW_HOME=~/airflow
 
 
 
